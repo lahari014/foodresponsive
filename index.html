@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./food.css"/>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676124947/food-icon-7_fzbyxl.png" class="image" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav small big ml-auto" id="navbar">
+                    <li class="nav-item active">
+                        <a class="nav-link text" href="#home-page" id="home">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text" href="#about-page" id="about">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text" href="#services-page" id="services">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text" href="#products-page" id="products">Specials</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text" href="#contact-page" tabindex="-1" aria-disabled="true" id="contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="home-page">
+        <div>
+            <h1 class="home-head">Celebrate With Food<i class='fa fa-pizza-slice ml-2 pizza' style='color:#F48484'></i></h1>
+            <p class="para">Taste the best and delicious food</p>
+            <div class="but">
+                <button class="home-button" id="but">Menu</button>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676131699/top-view-table-full-delicious-food-composition_23-2149141353_f9fhwv.jpg" class="home-image" />
+        </div>
+    </div>
+    <div id="about-page">
+        <div class="about-background">
+            <h1 class="about-head">About Us</h1>
+            <p class="about-para">Have the best tasty food which can ever be found.Come and fall in love with the food.
+                We cook the best tasty food with good customer service and at best price.</p>
+            <button class="about-button">Explore</button>
+        </div>
+        <div class="d-flex flex-row  justify-content-center m-2">
+            <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676133237/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471_pxw3nh.jpg" class="about-image" />
+        </div>
+    </div>
+    <div id="services-page">
+        <h1 style="color: #FB2576;font-weight:bold;margin:10px;" class="head">Services</h1>
+        <div class="service-container">
+            <div class="text-center m-2">
+                <h1 class="service-para">Tasty Food</h1>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="service-image1" />
+                <p class="pa">We offer our customers with the best and quality food with reasonable price.</p>
+            </div>
+            <div class="text-center m-2">
+                <h1 class="service-para">Delivery</h1>
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676164428/icone-jaune-de-camion-d-expedition-et-de-livraison_ii1pkd.png" class="service-image2" />
+                <p class="pa">We offer our clients excellent quality services with the best and delicious food in the city.</p>
+            </div>
+            <div class="text-center m-2">
+                <h1 class="service-para">Best Offers</h1>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="service-image1" />
+                <p class="pa">Experience all the love in the food along with best offers</p>
+            </div>
+        </div>
+    </div>
+    <div id="products-page">
+        <h1 style="color: #82CD47;font-weight:bold;margin:10px;" class="head">Specials</h1>
+        <div class="product-container">
+            <div class="shadow product-card">
+                <h1 style="font-size:20px;font-family:'Open Sans';">Non-Veg Starters</h1>
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676164927/tfm992prehaqpin2ablk.jpg" class="product-image1 w-100" />
+                <a href="#" style="color:orange;">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow product-card">
+                <h1 style="font-size:20px;font-family:'Open Sans';">Veg Starters</h1>
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676165964/mew-year-veg-party-snacks_s7tubm.jpg" class="product-image2 w-100" />
+                <a href="#" style="color:orange;">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow product-card">
+                <h1 style="font-size:20px;font-family:'Open Sans';">Soups</h1>
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676166056/l4iiegvpebdljv9sckmd.jpg" class="product-image2 w-100" />
+                <a href="#" style="color:orange;">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow product-card">
+                <h1 style="font-size:20px;font-family:'Open Sans';">Salads</h1>
+                <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676166126/Breakfast-Salad-lead_pvnutm.jpg" class="product-image1 w-100" />
+                <a href="#" style="color:orange;">View all
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="contact-page">
+        <h1 style="color: #FB2576;font-weight:bold;margin:10px;" class="head">Contact Us</h1>
+        <p class="p-2 contact-para">Come let's Talk....</p>
+        <p class="p-2 contact-para">If you want a reserve a table
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+            <button style="background-color:white;color:green;border-radius:10px;border-color:green;padding:10px;font-weight:bold;" class="contact-but">Contact</button>
+        </p>
+        <div id="follow-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="follow-us-icon-container">
+                    <i class="fab fa-twitter icon"></i>
+                </div>
+                <div class="follow-us-icon-container">
+                    <i class="fab fa-instagram icon"></i>
+                </div>
+                <div class="follow-us-icon-container">
+                    <i class="fab fa-facebook icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="order">
+            <img src="https://res.cloudinary.com/doreheurh/image/upload/v1676168675/food-icon-design-vector-png_120564_xwwgbk.jpg" class="order-image" />
+            <p style="color:white;">Order @yummy.com</p>
+        </div>
+    </div>
+    <script src="./food.js"></script>
+</body>
+
+</html>
